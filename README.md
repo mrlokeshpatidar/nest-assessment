@@ -43,5 +43,5 @@ Once the application is running, you can access the API endpoints using tools li
 
 Endpoints
 * POST /form: Create a new form entry.
-* GET /fill_data?form_title="user": Retrieve a specific form entry by ID.
+* GET /fill_data?form_title="user": Retrieve a specific form entry by user.
 * POST /fill_data?form_title="user": Create a new form entry.
