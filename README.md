@@ -42,6 +42,6 @@ npm run start:dev
 Once the application is running, you can access the API endpoints using tools like Postman or curl.
 
 Endpoints
-POST /form: Create a new form entry.
-GET /fill_data?form_title="user": Retrieve a specific form entry by ID.
-POST /fill_data?form_title="user": Create a new form entry.
+* POST /form: Create a new form entry.
+* GET /fill_data?form_title="user": Retrieve a specific form entry by ID.
+* POST /fill_data?form_title="user": Create a new form entry.
