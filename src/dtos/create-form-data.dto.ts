@@ -1,7 +1,7 @@
 import { IsString, IsEmail, IsPhoneNumber, IsBoolean, IsUUID } from 'class-validator';
 
 export class CreateFormDataDto {
-  @IsString()
+  @IsUUID()
   readonly uniqueId: string;
 
   @IsString()

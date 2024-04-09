@@ -16,5 +16,3 @@ export class FillDataDto {
   @IsBoolean()
   readonly isGraduate: boolean;
 }
-
-  
