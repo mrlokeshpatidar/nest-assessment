@@ -30,7 +30,7 @@ Make sure you have the following software installed on your machine:
   ```
 
 ### Configuration
-Before running the application, make sure to configure the database connection settings in `ormconfig.json` file.
+Before running the application, make sure to configure the database connection settings in `app.module.ts` file.
 
 ### Running the Application
 To run the application in development mode, use the following command:
