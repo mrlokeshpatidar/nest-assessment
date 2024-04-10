@@ -8,16 +8,4 @@ export class FormData {
 
   @Column()
   title: string;
-
-  @Column()
-  name: string;
-
-  @Column()
-  email: string;
-
-  @Column()
-  phoneNumber: string;
-
-  @Column({ default: false })
-  isGraduate: boolean;
 }
