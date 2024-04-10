@@ -9,9 +9,6 @@ export class FormController {
     // Insert data into form table
     await this.formService.insertFormData(createFormDataDto);
 
-    // Create table using title as tablename
-    await this.formService.createTable(createFormDataDto.title);
-
     return 'Form data inserted and table created successfully.';
   }
 }
