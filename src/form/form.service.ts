@@ -10,7 +10,7 @@ export class FormService {
   constructor(
     @InjectRepository(FormData)
     private readonly formDataRepository: Repository<FormData>,
-  ) {}
+  ) { }
 
   async insertFormData(createFormDataDto: any): Promise<void> {
     // Check if UUID already exists in form table
@@ -37,13 +37,13 @@ export class FormService {
     // Iterate over properties of formData
     for (const [columnName, columnType] of Object.entries(formData)) {
       // Skip 'title' property
-      if (columnName !== 'title') {
+      if (columnName.toLowerCase() !== 'title' && columnName.toLowerCase() !== 'uniqueid') {
         columns += `${columnName} ${columnType}, `;
       }
     }
 
     const createTableQuery = `CREATE TABLE IF NOT EXISTS ${tableName} (
-      id INT AUTO_INCREMENT PRIMARY KEY,
+      uniqueId UUID PRIMARY KEY DEFAULT,
       ${columns}
     )`;
 
