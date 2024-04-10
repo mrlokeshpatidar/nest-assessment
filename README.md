@@ -1,6 +1,6 @@
 # NestJS Form API
 
-[![Watch the video](https://www.loom.com/embed/60374e9982e24f2d91c6e0e2322565f1?sid=f4c52c45-ea1b-4360-ab1a-fda73211a10b)](https://www.loom.com/embed/60374e9982e24f2d91c6e0e2322565f1?sid=f4c52c45-ea1b-4360-ab1a-fda73211a10b)
+[![Watch the video](https://raw.githubusercontent.com/mrlokeshpatidar/nest-assessment/master/thumbnail.png)](https://www.loom.com/embed/60374e9982e24f2d91c6e0e2322565f1?sid=f4c52c45-ea1b-4360-ab1a-fda73211a10b)
 
 
 This is a sample NestJS API project that provides endpoints for managing form data.
